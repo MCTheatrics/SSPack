@@ -13,14 +13,14 @@
         { "threshold": 4, "model": { "type": "model", "model": "sscore:item/hadestown/hadestownflower" } },
         { "threshold": 5, "model": { "type": "model", "model": "sscore:item/hadestown/hadestownlamp" } },
         { "threshold": 6, "model": { "type": "model", "model": "sscore:item/hadestown/headtorch" } },
-        { "threshold": 7, "model": { "type": "model", "model": "sscore:item/ss/hermeshandheld" } },
-        { "threshold": 8, "model": { "type": "model", "model": "sscore:item/ss/hermesmic" } },
-        { "threshold": 9, "model": { "type": "model", "model": "sscore:item/ss/metalcups" } },
-        { "threshold": 10, "model": { "type": "model", "model": "sscore:item/ss/orpheuslyresstr" } },
-        { "threshold": 11, "model": { "type": "model", "model": "sscore:item/ss/paperflower" } },
-        { "threshold": 12, "model": { "type": "model", "model": "sscore:item/ss/persephonebag" } },
-        { "threshold": 13, "model": { "type": "model", "model": "sscore:item/ss/trainwhistle" } },
-        { "threshold": 14, "model": { "type": "model", "model": "sscore:item/ss/winebottle" } }
+        { "threshold": 7, "model": { "type": "model", "model": "sscore:item/hadestown/hermeshandheld" } },
+        { "threshold": 8, "model": { "type": "model", "model": "sscore:item/hadestown/hermesmic" } },
+        { "threshold": 9, "model": { "type": "model", "model": "sscore:item/hadestown/metalcups" } },
+        { "threshold": 10, "model": { "type": "model", "model": "sscore:item/hadestown/orpheuslyresstr" } },
+        { "threshold": 11, "model": { "type": "model", "model": "sscore:item/hadestown/paperflower" } },
+        { "threshold": 12, "model": { "type": "model", "model": "sscore:item/hadestown/persephonebag" } },
+        { "threshold": 13, "model": { "type": "model", "model": "sscore:item/hadestown/trainwhistle" } },
+        { "threshold": 14, "model": { "type": "model", "model": "sscore:item/hadestown/winebottle" } }
     ] 
   } 
 }
