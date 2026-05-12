@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "sscore:ss/eurydicecandle",
-		"particle": "sscore:ss/eurydicecandle"
+		"0": "sscore:item/ss/eurydicecandle",
+		"particle": "sscore:item/ss/eurydicecandle"
 	},
 	"elements": [
 		{

@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "sscore:ss/eurydicebag",
-		"particle": "sscore:ss/eurydicebag"
+		"0": "sscore:item/ss/eurydicebag",
+		"particle": "sscore:item/ss/eurydicebag"
 	},
 	"elements": [
 		{
