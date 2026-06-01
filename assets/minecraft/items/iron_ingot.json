@@ -21,7 +21,9 @@
         { "threshold": 12, "model": { "type": "model", "model": "sscore:item/hadestown/persephonebag" } },
         { "threshold": 13, "model": { "type": "model", "model": "sscore:item/hadestown/trainwhistle" } },
         { "threshold": 14, "model": { "type": "model", "model": "sscore:item/hadestown/winebottle" } },
-        { "threshold": 15, "model": { "type": "model", "model": "sscore:item/hadestown/accordion" } }
+        { "threshold": 15, "model": { "type": "model", "model": "sscore:item/hadestown/accordion" } },
+        { "threshold": 16, "model": { "type": "model", "model": "sscore:item/hadestown/tambourine" } }
+      
     ] 
   } 
 }
