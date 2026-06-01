@@ -22,8 +22,11 @@
         { "threshold": 13, "model": { "type": "model", "model": "sscore:item/hadestown/trainwhistle" } },
         { "threshold": 14, "model": { "type": "model", "model": "sscore:item/hadestown/winebottle" } },
         { "threshold": 15, "model": { "type": "model", "model": "sscore:item/hadestown/accordion" } },
-        { "threshold": 16, "model": { "type": "model", "model": "sscore:item/hadestown/tambourine" } }
-      
+        { "threshold": 16, "model": { "type": "model", "model": "sscore:item/hadestown/tambourine" } },
+        { "threshold": 17, "model": { "type": "model", "model": "sscore:item/hadestown/FLOWERTOWN" } },
+        { "threshold": 18, "model": { "type": "model", "model": "sscore:item/hadestown/BASSTOWN" } },
+        { "threshold": 19, "model": { "type": "model", "model": "sscore:item/hadestown/newspaper" } },
+        { "threshold": 20, "model": { "type": "model", "model": "sscore:item/hadestown/VIOLINTOWN" } }
     ] 
   } 
 }
