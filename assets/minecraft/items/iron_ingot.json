@@ -33,7 +33,7 @@
         { "threshold": 24, "model": { "type": "model", "model": "sscore:item/hadestown/cointown" } },
         { "threshold": 25, "model": { "type": "model", "model": "sscore:item/hadestown/matchtown" } },
         { "threshold": 26, "model": { "type": "model", "model": "sscore:item/hadestown/walllight" } },
-        { "threshold": 23, "model": { "type": "model", "model": "sscore:item/hadestown/fatefan" } }
+        { "threshold": 27, "model": { "type": "model", "model": "sscore:item/hadestown/fatefan" } }
     ] 
   } 
 }
