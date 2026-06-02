@@ -27,7 +27,8 @@
         { "threshold": 18, "model": { "type": "model", "model": "sscore:item/hadestown/basstown" } },
         { "threshold": 19, "model": { "type": "model", "model": "sscore:item/hadestown/violintown" } },
         { "threshold": 20, "model": { "type": "model", "model": "sscore:item/hadestown/flowertown" } },
-        { "threshold": 21, "model": { "type": "model", "model": "sscore:item/hadestown/cellotown" } }
+        { "threshold": 21, "model": { "type": "model", "model": "sscore:item/hadestown/cellotown" } },
+        { "threshold": 21, "model": { "type": "model", "model": "sscore:item/hadestown/pianotown" } }
     ] 
   } 
 }
