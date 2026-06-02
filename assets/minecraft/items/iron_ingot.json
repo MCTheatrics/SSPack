@@ -26,7 +26,8 @@
         { "threshold": 17, "model": { "type": "model", "model": "sscore:item/hadestown/newspaper" } },
         { "threshold": 18, "model": { "type": "model", "model": "sscore:item/hadestown/basstown" } },
         { "threshold": 19, "model": { "type": "model", "model": "sscore:item/hadestown/violintown" } },
-        { "threshold": 20, "model": { "type": "model", "model": "sscore:item/hadestown/flowertown" } }
+        { "threshold": 20, "model": { "type": "model", "model": "sscore:item/hadestown/flowertown" } },
+        { "threshold": 21, "model": { "type": "model", "model": "sscore:item/hadestown/cellotown" } }
     ] 
   } 
 }
