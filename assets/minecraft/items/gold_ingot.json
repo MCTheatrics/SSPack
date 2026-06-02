@@ -7,9 +7,9 @@
       "model": "item/gold_ingot"
     },
     "entries": [
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/MCT/guitar" } },
-        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/MCT/trombone" } },
-        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/MCT/trumpet" } }
+        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/guitar" } },
+        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/mct/trombone" } },
+        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/mct/trumpet" } }
     ] 
   } 
 }
