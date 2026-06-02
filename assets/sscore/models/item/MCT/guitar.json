@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "sscore:item/mct/guitar",
-		"particle": "sscore:item/mct/guitar"
+		"1": "sscore:item/MCT/guitar",
+		"particle": "sscore:item/MCT/guitar"
 	},
 	"elements": [
 		{
