@@ -9,8 +9,8 @@
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
-          "on_true": { "type": "minecraft:model", "model": "minecraft:item/hadestownflower_raised" },
-          "on_false": { "type": "minecraft:model", "model": "minecraft:item/hadestownflower_raised" }
+          "on_true": { "type": "minecraft:model", "model": "sscore:item/hadestown/hadestownflower_raised" },
+          "on_false": { "type": "minecraft:model", "model": "sscore:item/hadestown/hadestownflower_raised" }
         }
       }
     ],
