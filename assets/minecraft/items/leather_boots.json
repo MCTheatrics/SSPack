@@ -7,8 +7,8 @@
       "model": "item/leather_boots"
     },
     "entries": [
-        { "threshold": 1, "model": { "type": "model", "model": "mctcore:item/spotlight/sombreado1" } },
-		{ "threshold": 2, "model": { "type": "model", "model": "mctcore:item/spotlight/sombreado2" } }
+        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/sombreado1" } },
+		{ "threshold": 2, "model": { "type": "model", "model": "sscore:item/mct/sombreado2" } }
 		
     ] 
   } 
