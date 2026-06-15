@@ -348,8 +348,8 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-15, -89, -62],
-			"translation": [-6.5, 7.25, 6],
+			"rotation": [-54, -89, -62],
+			"translation": [-0.25, 2, 0.5],
 			"scale": [1.4, 1.4, 1.4]
 		},
 		"thirdperson_lefthand": {
@@ -379,8 +379,8 @@
 		},
 		"head": {
 			"rotation": [0, -90, 0],
-			"translation": [-0.5, -6.5, -14.5],
-			"scale": [1.54492, 1.32031, 1.33789]
+			"translation": [-0.75, -6.5, -16.75],
+			"scale": [1.94727, 1.7207, 1.73828]
 		},
 		"fixed": {
 			"rotation": [0, -6.5, 0],
