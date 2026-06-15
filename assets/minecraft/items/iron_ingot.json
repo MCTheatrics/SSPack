@@ -10,7 +10,7 @@
         { "threshold": 1, "model": { "type": "model", "model": "sscore:item/hadestown/eurydicebag" } },
         { "threshold": 2, "model": { "type": "model", "model": "sscore:item/hadestown/eurydicecandle" } },
         { "threshold": 3, "model": { "type": "model", "model": "sscore:item/hadestown/hadestable" } },
-        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/hadestown/hadestownflower" } },
+        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/hadestown/headtorch_on" } },
         { "threshold": 5, "model": { "type": "model", "model": "sscore:item/hadestown/hadestownlamp" } },
         { "threshold": 6, "model": { "type": "model", "model": "sscore:item/hadestown/headtorch" } },
         { "threshold": 7, "model": { "type": "model", "model": "sscore:item/hadestown/hermeshandheld" } },
