@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made By MrAnsk",
 	"textures": {
-		"1": "sombreado7",
-		"particle": "sombreado7"
+		"1": "sscore:item/mct/sombreado7",
+		"particle": "sscore:item/mct/sombreado7"
 	},
 	"elements": [
 		{
