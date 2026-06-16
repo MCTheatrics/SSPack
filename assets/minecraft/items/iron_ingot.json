@@ -34,7 +34,8 @@
         { "threshold": 25, "model": { "type": "model", "model": "sscore:item/hadestown/matchtown" } },
         { "threshold": 26, "model": { "type": "model", "model": "sscore:item/hadestown/walllight" } },
         { "threshold": 27, "model": { "type": "model", "model": "sscore:item/hadestown/fatefan" } },
-        { "threshold": 28, "model": { "type": "model", "model": "sscore:item/hadestown/fatefeather" } }
+        { "threshold": 28, "model": { "type": "model", "model": "sscore:item/hadestown/fatefeather" } },
+        { "threshold": 28, "model": { "type": "model", "model": "sscore:item/hadestown/umbrella" } }
     ] 
   } 
 }
