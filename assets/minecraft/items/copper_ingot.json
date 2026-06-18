@@ -4,7 +4,7 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "item/iron_ingot"
+      "model": "item/copper_ingot"
     },
     "entries": [
         { "threshold": 1, "model": { "type": "model", "model": "sscore:item/othershows/berrypie" } },
