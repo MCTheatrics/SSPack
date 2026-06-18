@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mctcore:ss/redpie",
-		"particle": "mctcore:ss/redpie"
+		"0": "sscore:item/ss/oldshows/redpie",
+		"particle": "sscore:item/ss/oldshows/redpie"
 	},
 	"elements": [
 		{
