@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mctcore:ss/mermaid_marshmallow",
-		"particle": "mctcore:ss/mermaid_marshmallow"
+		"0": "sscore:item/ss/oldshows/mermaid_marshmallow",
+		"particle": "sscore:item/ss/oldshows/mermaid_marshmallow"
 	},
 	"elements": [
 		{
