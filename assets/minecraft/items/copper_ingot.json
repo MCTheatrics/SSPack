@@ -7,11 +7,11 @@
       "model": "item/copper_ingot"
     },
     "entries": [
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/othershows/berrypie" } },
-        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/othershows/clipboard" } },
-        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/othershows/delorean" } },
-        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/othershows/menu" } },
-        { "threshold": 5, "model": { "type": "model", "model": "sscore:item/othershows/mermaid_marshmallow" } }
+        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/oldshows/berrypie" } },
+        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/oldshows/clipboard" } },
+        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/oldshows/delorean" } },
+        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/oldshows/menu" } },
+        { "threshold": 5, "model": { "type": "model", "model": "sscore:item/oldshows/mermaid_marshmallow" } }
     ] 
   } 
 }
