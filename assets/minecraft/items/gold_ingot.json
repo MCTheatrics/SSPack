@@ -11,7 +11,7 @@
         { "threshold": 2, "model": { "type": "model", "model": "sscore:item/mct/trombone" } },
         { "threshold": 3, "model": { "type": "model", "model": "sscore:item/mct/trumpet" } },
         { "threshold": 4, "model": { "type": "model", "model": "sscore:item/mct/drumset" } },
-        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/mct/hadestown" } }
+        { "threshold": 5, "model": { "type": "model", "model": "sscore:item/mct/hadestown" } }
     ] 
   } 
 }
