@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "sscore:item/ss/second_star_award",
-		"particle": "sscore:item/ss/second_star_award"
+		"0": "sscore:item/ss/award",
+		"particle": "sscore:item/ss/award"
 	},
 	"elements": [
 		{
