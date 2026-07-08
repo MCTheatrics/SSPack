@@ -12,6 +12,15 @@
           "on_true": { "type": "minecraft:model", "model": "sscore:item/hadestown/metalcups_raised" },
           "on_false": { "type": "minecraft:model", "model": "sscore:item/hadestown/metalcups" }
         }
+      },
+      {
+        "when": "1001",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": { "type": "minecraft:model", "model": "sscore:item/hadestown/fatelantern" },
+          "on_false": { "type": "minecraft:model", "model": "sscore:item/hadestown/fatelantern" }
+        }
       }
     ],
     "fallback": {
