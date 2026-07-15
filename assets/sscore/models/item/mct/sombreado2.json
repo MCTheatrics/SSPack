@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/sombreado7",
-		"particle": "item/sombreado7"
+		"1": "sscore:item/mct/sombreado7",
+		"particle": "sscore:item/mct/sombreado7"
 	},
 	"elements": [
 		{
