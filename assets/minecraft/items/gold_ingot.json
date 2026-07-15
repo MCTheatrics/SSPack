@@ -12,9 +12,8 @@
         { "threshold": 3, "model": { "type": "model", "model": "sscore:item/mct/guitar" } },
         { "threshold": 4, "model": { "type": "model", "model": "sscore:item/mct/trombone" } },
         { "threshold": 5, "model": { "type": "model", "model": "sscore:item/mct/trumpet" } },
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/sombreado2" } },
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/spotlight_2" } },
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/spotlight_3" } }
+        { "threshold": 6, "model": { "type": "model", "model": "sscore:item/mct/sombreado2" } }
+       
     ] 
   } 
 }
