@@ -9,7 +9,6 @@
     "entries": [
         { "threshold": 1, "model": { "type": "model", "model": "sstcore:item/mct/sombreado1" } },
 		{ "threshold": 2, "model": { "type": "model", "model": "sscore:item/mct/sombreado2" } }
-		
     ] 
   } 
 }
