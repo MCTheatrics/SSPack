@@ -7,13 +7,11 @@
       "model": "item/gold_ingot"
     },
     "entries": [
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/sombreado1" } },
-        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/mct/drumset" } },
-        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/mct/guitar" } },
-        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/mct/trombone" } },
-        { "threshold": 5, "model": { "type": "model", "model": "sscore:item/mct/trumpet" } },
-        { "threshold": 6, "model": { "type": "model", "model": "sscore:item/mct/sombreado2" } },
-        { "threshold": 7, "model": { "type": "model", "model": "sscore:item/mct/streetlight" } }
+        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/mct/drumset" } },
+        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/mct/guitar" } },
+        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/mct/trombone" } },
+        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/mct/trumpet" } },
+        { "threshold": 5, "model": { "type": "model", "model": "sscore:item/mct/streetlight" } }
        
     ] 
   } 
