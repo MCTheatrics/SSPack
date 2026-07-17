@@ -4,14 +4,14 @@ on: [push, workflow_dispatch]
 jobs:
   packsquash:
     permissions:
-      contents: write # Restricted permissions for better security
+      contents: write
     name: Optimize resource pack
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1 # Only fetch the latest commit
+          fetch-depth: 0 # Required for full history
 
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
@@ -21,20 +21,18 @@ jobs:
             pack_directory = '.'
             output_file_path = './pack.zip'
 
-      - name: Generate Hash
-        id: vars
+      - name: Rename and Hash
         run: |
           HASH=$(sha1sum pack.zip | head -c 40)
-          echo "pack_hash=$HASH" >> $GITHUB_ENV
-          echo $HASH > hash.txt
+          mv pack.zip "$HASH.zip"
+          echo "$HASH" > hash.txt
+          echo "PACK_FILENAME=$HASH.zip" >> $GITHUB_ENV
 
-      - name: Create Release
+      - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
-          # Use a timestamp to ensure every build has a unique release
           tag_name: build-${{ github.run_number }}
           name: Resource Pack Build ${{ github.run_number }}
-          body: "SHA-1 Hash: ${{ env.pack_hash }}"
           files: |
-            pack.zip
+            ${{ env.PACK_FILENAME }}
             hash.txt
