@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "sscore:item/spotlight/sombreado1",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": 0
+      }
+    ]
+  }
+}
