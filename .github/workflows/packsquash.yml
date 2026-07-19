@@ -1,17 +1,28 @@
-name: Optimize resource pack
-on: [push, workflow_dispatch]
+name: Build Resource Pack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resource-pack-build
+  cancel-in-progress: true
 
 jobs:
-  packsquash:
-    permissions:
-      contents: write
+  build:
     name: Optimize resource pack
     runs-on: ubuntu-latest
+
     steps:
-      - name: Clone repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Required for full history
+          fetch-depth: 0
 
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
@@ -21,18 +32,38 @@ jobs:
             pack_directory = '.'
             output_file_path = './pack.zip'
 
-      - name: Rename and Hash
+      - name: Generate hash and hashed pack
+        id: pack
+        shell: bash
         run: |
-          HASH=$(sha1sum pack.zip | head -c 40)
-          mv pack.zip "$HASH.zip"
-          echo "$HASH" > hash.txt
-          echo "PACK_FILENAME=$HASH.zip" >> $GITHUB_ENV
+          HASH="$(sha1sum pack.zip | cut -d ' ' -f 1)"
 
-      - name: Tag and create release
+          printf '%s' "$HASH" > hash.txt
+          cp pack.zip "$HASH.zip"
+
+          echo "hash=$HASH" >> "$GITHUB_OUTPUT"
+          echo "Generated $HASH.zip"
+
+      - name: Remove old release assets
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view latest >/dev/null 2>&1; then
+            gh release view latest \
+              --json assets \
+              --jq '.assets[].name' |
+            while IFS= read -r asset; do
+              [ -n "$asset" ] && gh release delete-asset latest "$asset" --yes
+            done
+          fi
+
+      - name: Publish latest release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ github.run_number }}
-          name: Resource Pack Build ${{ github.run_number }}
+          tag_name: latest
+          name: Latest Resource Pack
+          make_latest: true
           files: |
-            ${{ env.PACK_FILENAME }}
             hash.txt
+            ${{ steps.pack.outputs.hash }}.zip
