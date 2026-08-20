@@ -1,2 +1,2 @@
-# SSPack
+# BSPack
 Where Magic Meets Theatre
