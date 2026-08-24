@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "bfscore:item/butterfly/alice/trash_can",
+		"particle": "bfscore:item/butterfly/alice/trash_can"
+	},
+	"elements": [
+		{
+			"from": [2.75, 0, 2.75],
+			"to": [13.25, 13, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [3, 0, 5.75, 3.25], "texture": "#0"},
+				"east": {"uv": [3, 0, 5.75, 3.25], "texture": "#0"},
+				"south": {"uv": [3, 0, 5.75, 3.25], "texture": "#0"},
+				"west": {"uv": [3, 0, 5.75, 3.25], "texture": "#0"},
+				"up": {"uv": [2.75, 8.75, 0, 6], "texture": "#0"},
+				"down": {"uv": [5.5, 6.5, 2.75, 9.25], "texture": "#0"}
+			}
+		}
+	]
+}
