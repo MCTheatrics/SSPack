@@ -7,10 +7,10 @@
       "model": "item/iron_ingot"
     },
     "entries": [
-        { "threshold": 1, "model": { "type": "model", "model": "sscore:item/citystuff/streetlight" } },
-        { "threshold": 2, "model": { "type": "model", "model": "sscore:item/citystuff/barricade" } },
-        { "threshold": 3, "model": { "type": "model", "model": "sscore:item/citystuff/trafficcone" } },
-        { "threshold": 4, "model": { "type": "model", "model": "sscore:item/citystuff/trashcan" } }
+        { "threshold": 1, "model": { "type": "model", "model": "bfscore:item/mct/citystuff/streetlight" } },
+        { "threshold": 2, "model": { "type": "model", "model": "bfscore:item/mct/citystuff/barricade" } },
+        { "threshold": 3, "model": { "type": "model", "model": "bfscore:item/mct/citystuff/trafficcone" } },
+        { "threshold": 4, "model": { "type": "model", "model": "bfscore:item/mct/citystuff/trashcan" } }
     ] 
   } 
 }
