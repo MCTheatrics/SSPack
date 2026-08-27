@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/copper_ingot"
+    },
+    "entries": [
+        { "threshold": 1, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/bunny" } },
+        { "threshold": 2, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/can" } },
+        { "threshold": 3, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/cigar" } },
+        { "threshold": 4, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/clipboard" } },
+        { "threshold": 5, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/crate_box_one" } },
+        { "threshold": 6, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/hanging_light" } },
+        { "threshold": 7, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/king_crown" } },
+        { "threshold": 8, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/playing_cards" } },
+        { "threshold": 9, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/queen_crown" } },
+        { "threshold": 10, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/trash_can" } },
+        { "threshold": 11, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/trash_can_lid" } },
+        { "threshold": 12, "model": { "type": "model", "model": "bfscore:item/butterfly/alice/trash_can_no_lid" } }
+    ] 
+  } 
+}
