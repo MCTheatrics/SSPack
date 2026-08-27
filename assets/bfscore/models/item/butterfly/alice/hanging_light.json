@@ -3,24 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "bfscore:item/butterfly/alice/hanginglight",
+		"0": "bfscore:item/butterfly/alice/hanging_light",
 		"particle": "bfscore:item/butterfly/alice/hanging_light"
 	},
 	"elements": [
-		{
-			"from": [0, 0, 16],
-			"to": [16, 16, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 6, 16]},
-			"color": 4,
-			"faces": {
-				"north": {"uv": [0, 0, 8, 8], "texture": "#missing"},
-				"east": {"uv": [1, 0, 1, 8], "texture": "#missing"},
-				"south": {"uv": [0, 0, 8, 8], "texture": "#missing"},
-				"west": {"uv": [0, 0, 0, 8], "texture": "#missing"},
-				"up": {"uv": [0, 0, 8, 0], "texture": "#missing"},
-				"down": {"uv": [0, 1, 8, 1], "texture": "#missing"}
-			}
-		},
 		{
 			"from": [6, 11, 10],
 			"to": [10, 13, 14],
