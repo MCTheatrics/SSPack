@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "bfscore:item/butterfly/alice/hanging_light",
+		"0": "bfscore:item/butterfly/alice/hanginglight",
 		"particle": "bfscore:item/butterfly/alice/hanging_light"
 	},
 	"elements": [
