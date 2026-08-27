@@ -2,7 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "bfscore:item/butterfly/alice/playing_cards",
+		"0": "bfscore:item/butterfly/alice/playing cards",
 		"particle": "bfscore:item/butterfly/alice/playing_cards"
 	},
 	"elements": [
